@@ -9,7 +9,7 @@ void main() {
       ChangeNotifierProvider(
         create: (context) => TimerProvider(),
         child: const MyApp(),
-      ));
+       ));
 }
 
 class MyApp extends StatelessWidget {
